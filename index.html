@@ -112,6 +112,7 @@ nav button{flex:1;padding:14px 4px 13px;color:var(--muted);font-family:'Chakra P
 nav button.on{color:var(--spark);border-top-color:var(--spark)}
 
 .overlay{position:fixed;inset:0;background:rgba(8,5,20,.6);display:flex;align-items:flex-end;justify-content:center;z-index:30}
+.overlay[hidden]{display:none}
 .sheet{background:var(--surface);width:100%;max-width:520px;max-height:90%;overflow:auto;border-radius:18px 18px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line)}
 .sheet h2{font-size:21px;margin-bottom:2px}
 pre.export{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;max-height:280px;overflow:auto;font-size:12.5px;white-space:pre;margin:10px 0 0;color:var(--text)}
